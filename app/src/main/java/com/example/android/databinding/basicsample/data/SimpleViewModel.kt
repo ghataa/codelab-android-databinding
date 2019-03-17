@@ -24,8 +24,8 @@ import android.databinding.ObservableInt
  * A simple VM for [com.example.android.databinding.basicsample.ui.PlainOldActivity].
  */
 class SimpleViewModel : ViewModel() {
-    val name = "Grace"
-    val lastName = "Hopper"
+    val name = "Obi-Wan"
+    val lastName = "Kenobi"
     val likes = ObservableInt()
     val popularity = ObservableField<Popularity>(Popularity.NORMAL)
 
